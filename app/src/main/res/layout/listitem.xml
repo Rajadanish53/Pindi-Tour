@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:id="@+id/wrapper"
+    app:cardCornerRadius="10dp"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#0C8CE0"
+    >
+    <!--    img name description-->
+    <!--    roundedimageview-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3">
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/img"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="6dp"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_launcher_background"/>
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textSize="16sp"
+
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:layout_marginTop="4dp"
+                android:textColor="#fff"
+                android:textSize="12sp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+>    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

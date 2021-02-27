@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "760638474204",
+    "project_id": "pindi-tour",
+    "storage_bucket": "pindi-tour.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760638474204:android:049894521742b18026b119",
+        "android_client_info": {
+          "package_name": "com.example.pinditour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760638474204-g97vq52vsicogackhj7l693s97eat0dc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3fyQot4CKxoYS1PnMgqSkElbXkN3x_G8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760638474204-g97vq52vsicogackhj7l693s97eat0dc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
